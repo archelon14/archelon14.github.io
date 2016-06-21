@@ -1,7 +1,3 @@
-/*
- * Globals
- */
-
 /* Links */
 a,
 a:focus,
@@ -26,7 +22,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #fff;
 }
 body {
   color: #fff;
@@ -40,10 +36,6 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-/*
-  -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 50px rgba(0,0,0,.5);
-*/
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -60,7 +52,7 @@ body {
 }
 
 /*
- * Header
+ * Header Menu
  */
 .masthead-brand {
   margin-top: 10px;
@@ -182,42 +174,18 @@ body {
     top: 0px;
 }
 
-#twit {
-    opacity: .5;
-}
-
-#twit:hover {
-    opacity: 1;
-}
-
-#inst {
-    opacity: .5;
-}
-
-#inst:hover {
-    opacity: 1;
-}
-
-#pin {
-    opacity: .5;
-}
-
-#pin:hover {
-    opacity: 1;
-}
-
-#git {
-    opacity: .5;
-}
-
-#git:hover {
-    opacity: 1;
-}
-
+#twit,
+#inst,
+#pin,
+#git,
 #pay {
     opacity: .5;
 }
 
+#twit:hover,
+#inst:hover,
+#pin:hover,
+#git:hover,
 #pay:hover {
     opacity: 1;
 }
