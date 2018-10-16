@@ -178,7 +178,8 @@ body {
 #inst,
 #pin,
 #git,
-#pay {
+#pay,
+#so {
     opacity: .5;
 }
 
@@ -186,6 +187,7 @@ body {
 #inst:hover,
 #pin:hover,
 #git:hover,
-#pay:hover {
+#pay:hover,
+#so:hover {
     opacity: 1;
 }
