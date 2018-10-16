@@ -179,7 +179,7 @@ body {
 #pin,
 #git,
 #pay,
-#so {
+#stack {
     opacity: .5;
 }
 
@@ -188,6 +188,6 @@ body {
 #pin:hover,
 #git:hover,
 #pay:hover,
-#so:hover {
+#stack:hover {
     opacity: 1;
 }
