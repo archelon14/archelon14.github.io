@@ -2,7 +2,7 @@
 a,
 a:focus,
 a:hover {
-  color: #312c32;
+  color: #fff;
 }
 
 /* Custom default button */
@@ -25,7 +25,7 @@ body {
   background-color: #fff;
 }
 body {
-  color: #312c32;
+  color: #fff;
   text-align: center;
 /*  text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
@@ -70,7 +70,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: 400;
-  color: #312c32; /* IE8 proofing */
+  color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -83,7 +83,7 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #312c32;
+  color: #fff;
   border-bottom-color: #fff;
 }
 
